@@ -1,0 +1,11 @@
+#include<iostream> //Library
+using namespace std; 
+int main(){
+	int number = 20; //Integer variable
+	string text = "Hello World!"; //String variable
+	double number2 = 2.5; //Double variable
+	float number3 = 5.6; //Float variable
+	char a = 'B';//Char variable
+	bool sex = "men"; //Bool variable
+	cout<<number;
+}
