@@ -1,0 +1,19 @@
+#include<iostream>
+#include <stdio.h>
+using namespace std;
+int main()
+{
+    string input,name,lastname,id;
+    int age;
+    bool man;//If person is a man 1, else 0
+    cout<<"Please input your name and last name with one space \n";
+    getline(cin,input);
+    name = input.substr(0,input.find(" "));
+    lastname = input.erase(0,input.find(" ")+1);
+    cout<<"Thanks for them, I need your old now\n";
+    scanf("%d",&age);
+    cout<<"Finallyy Are you man ? (yes :1 , no:0)";
+    scanf("%b",&man);
+    printf("Name: %s \n Last name : %s \n Age: %d \n Man : %b", name, lastname, age, man);
+    return 0;
+}
